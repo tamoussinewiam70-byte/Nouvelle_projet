@@ -1,0 +1,67 @@
+body{
+    background-color: #F3E5DC;
+    margin:0;
+    padding:0;
+    color:hsl(30, 92%, 14%);
+    font-family: 'Cairo',sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:20px 40px;
+    background-color: transparent;
+}
+nav a{
+    margin: 0 15px;
+    text-decoration:none;
+    color:hsl(30, 92%, 14%);
+    font-weight: bold;
+
+}
+section{
+    text-align: center;
+    padding:100px 20px;
+    background-image: url(Accessoire.jpg);
+    background-size: cover;
+    background-position: center;
+}
+section h1{
+    font-size: 36px;
+    margin-bottom:20px;
+}
+section p {
+    font-size: 18px;
+    margin-bottom:30px;
+}
+button{
+    background-color: #dbc3b4e6;
+    color:hsl(30, 92%, 14%);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+button a {
+    color:hsl(30, 92%, 14%);
+     text-decoration: none;
+
+}
+footer{
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 14 px;
+    color:hsl(30, 92%, 14%);
+}
+footer a{
+    margin:0 10px ;
+    text-decoration: none;
+    color: hsl(30, 92%, 14%);
+}
+footer a:hover{
+    text-decoration: underline;
+}
